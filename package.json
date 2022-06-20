@@ -1,0 +1,62 @@
+{
+  "name": "gatsby-source-magento-2",
+  "version": "1.0.0",
+  "author": "Chidozie <chidozie@tamigrid.com",
+  "description": "GatsbyJS plugin which fetches storefront data from the Magento2 GraphQL endpoint.",
+  "bugs": {
+    "url": "https://github.com/mobelop/gatsby-source-magento2/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc-watch --outDir .",
+    "build": "tsc --outDir .",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "prepublish": "npm run build",
+    "lint": "eslint --ext js ./ --cache",
+    "format": "prettier --write 'src/*.js'",
+    "test": "jest"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "magento",
+    "magento2"
+  ],
+  "license": "0BSD",
+  "peerDependencies": {
+    "gatsby": "^4.0.0-next",
+    "gatsby-plugin-image": "^2.0.0-next",
+    "gatsby-plugin-sharp": "^4.0.0-next",
+    "sharp": "^0.30.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "camelcase-object-deep": "^1.1.5",
+    "gatsby-core-utils": "^3.9.1",
+    "gatsby-plugin-utils": "^3.3.0",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.1.0",
+    "graphql-tag": "^2.12.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-gatsby-package": "^2.10.0-next.1",
+    "cross-env": "^7.0.3",
+    "cross-fetch": "^3.1.5",
+    "eslint": "^8.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "jest": "^27.5.1",
+    "nock": "^13.2.4",
+    "prettier": "^2.5.1",
+    "prettier-check": "^2.0.0",
+    "tsc-watch": "^4.6.2",
+    "typescript": "^4.6.2"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
