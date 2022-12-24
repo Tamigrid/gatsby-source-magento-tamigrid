@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-magento-tamigrid",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "author": "Chidozie <chidozie@tamigrid.com",
   "description": "GatsbyJS plugin which fetches storefront data from the Magento2 GraphQL endpoint.",
   "bugs": {
@@ -25,7 +25,7 @@
   ],
   "license": "0BSD",
   "peerDependencies": {
-    "gatsby": "gatsby@^5.2.0",
+    "gatsby": "^5.2.0",
     "gatsby-plugin-image": "^2.0.0-next",
     "gatsby-plugin-sharp": "^4.0.0-next",
     "sharp": "^0.30.1"
