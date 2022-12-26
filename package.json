@@ -25,20 +25,15 @@
   ],
   "license": "0BSD",
   "peerDependencies": {
-    "@babel/core": "^7.12.3",
-    "gatsby": "^5.0.0-next",
+    "gatsby": "^5.3.3-next",
     "gatsby-plugin-sharp": "^5.0.0-next",
     "gatsby-source-filesystem": "^5.0.0-next",
-    "react": "^18.0.0 || ^0.0.0",
-    "react-dom": "^18.0.0 || ^0.0.0",
     "gatsby-plugin-image": "^3.4.0-next.1",
     "sharp": "^0.31.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.17.2",
     "camelcase-object-deep": "^1.1.5",
-    "gatsby-core-utils": "^3.9.1",
-    "gatsby-plugin-utils": "^3.3.0",
     "graphql": "^16.3.0",
     "graphql-request": "^4.1.0",
     "graphql-tag": "^2.12.6",
@@ -61,6 +56,6 @@
     "typescript": "^4.6.2"
   },
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=18.0.0"
   }
 }
