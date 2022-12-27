@@ -1,9 +1,10 @@
 import { GraphQLClient } from 'graphql-request'
 import { SourceNodesArgs } from 'gatsby'
 import camelcaseObjectDeep from 'camelcase-object-deep'
+import { createRemoteFileNode } from 'gatsby-source-filesystem'
+
 import productsQuery from './queries/products'
 import { MAGENTO_PRODUCT_NODE_TYPE, MAX_PAGE_SIZE } from './utils/constants'
-import { createRemoteFileNode } from 'gatsby-source-filesystem'
 import {
   ICategoryWithNodeId,
   MagentoPluginOptions,

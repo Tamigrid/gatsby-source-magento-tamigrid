@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createProductNodes = void 0;
 const graphql_request_1 = require("graphql-request");
 const camelcase_object_deep_1 = __importDefault(require("camelcase-object-deep"));
+const gatsby_source_filesystem_1 = require("gatsby-source-filesystem");
 const products_1 = __importDefault(require("./queries/products"));
 const constants_1 = require("./utils/constants");
-const gatsby_source_filesystem_1 = require("gatsby-source-filesystem");
 const createProductNodes = (context, { graphqlEndpoint, storeViewName }, categoryMap) => {
     const { reporter } = context;
     return new Promise(async (resolve, _reject) => {

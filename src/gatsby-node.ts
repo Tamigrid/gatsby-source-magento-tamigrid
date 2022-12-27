@@ -3,7 +3,7 @@ import { MagentoPluginOptions } from '../types/interface'
 import createMagentoNodes from './nodes'
 
 export const onPreInit = ({ reporter }: NodePluginArgs) =>
-  reporter.info('Loaded gatsby-source-magento-graphql')
+  reporter.info('Loaded gatsby-source-magento-tamigrid')
 
 export const sourceNodes = async (
   context: SourceNodesArgs,

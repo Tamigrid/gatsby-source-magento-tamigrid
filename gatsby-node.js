@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sourceNodes = exports.onPreInit = void 0;
 const nodes_1 = __importDefault(require("./nodes"));
-const onPreInit = ({ reporter }) => reporter.info('Loaded gatsby-source-magento-graphql');
+const onPreInit = ({ reporter }) => reporter.info('Loaded gatsby-source-magento-tamigrid');
 exports.onPreInit = onPreInit;
 const sourceNodes = async (context, options) => {
     const { graphqlEndpoint, storeViewName } = options;
